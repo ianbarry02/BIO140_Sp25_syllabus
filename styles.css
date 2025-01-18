@@ -1,0 +1,55 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+h1, p {
+    margin: 10px 0;
+}
+
+.toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+button, select, input[type="color"] {
+    padding: 8px;
+    font-size: 14px;
+}
+
+
+/* Toolbar */
+.toolbar label {
+    font-weight: bold;
+}
